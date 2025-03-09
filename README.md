@@ -15,7 +15,7 @@ pip install torch transformers datasets scikit-learn sentencepiece
 Quick Start
 Gather or download dataset: (e.g. SST2 from Hugging Face)
 
-### Quick Start
+# Quick Start
 
 ## Run baseline:
 
@@ -25,7 +25,7 @@ python baseline.py
 
 This will train (or load) the base model, measure size, latency, and accuracy, and save metrics to baseline_metrics.json.
 
-# Note
+### Note
 If you encounter such error:
 2025-03-08 13:19:01,673 [ERROR] Error in baseline script: Invalid pattern: '**' can only be an entire path component
 Please try to update the dataset by:
